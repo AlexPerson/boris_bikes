@@ -1,4 +1,4 @@
-require_relative '../lib/bike_class.rb'
+require '~/projects/boris_bikes/lib/bike_class.rb'
 describe Bike do
-	it {should respond_to(:working?)}
+	it {is_expected.to respond_to :working?}
 end
